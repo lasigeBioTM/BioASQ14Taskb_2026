@@ -1,2 +1,4 @@
 # BioASQ14Taskb_2026
 This repository contains the code used for our participation at the BioASQ2025 Task14 b Biomedical Semantic QA.
+
+All the code will soon be available.
