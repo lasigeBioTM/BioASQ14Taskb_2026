@@ -25,7 +25,7 @@ The system is split into two phases:
 
 | Pipeline | File | Approach |
 |---|---|---|
-| **Hybrid** | `pipelines/bioasq_pipeline_normal.py` | FAISS dense (PubMedBERT) + PISA BM25, weighted-sum fusion (0.83 / 0.17), cross-encoder reranking, score-threshold cutoff |
+| **Hybrid** | `pipelines/bioasq_pipeline_normal.py` | FAISS dense (PubMedBERT) + PISA BM25, weighted-sum fusion, cross-encoder reranking, score-threshold cutoff |
 | **Sparse-Only** | `pipelines/bioasq_pipeline_onlyBM25.py` | PISA BM25 only → cross-encoder reranking |
 | **DPRF** | `pipelines/bioasq_pipeline_dprf.py` | Dense pseudo-relevance feedback expansion, RRF fusion of BM25 + dense runs, cross-encoder reranking |
 | **Ensemble** | `pipelines/Ensemble_crossencoders.py` | Reciprocal-rank fusion across multiple cross-encoders |
