@@ -76,14 +76,21 @@ pip install -r requirements.txt
 
 ### Prerequisites (not included in this repo)
 
-These are large and must be built/downloaded separately:
+These are large and must be obtained separately:
 
-- **PubMed corpus** as an LMDB store (`*.lmdb`) — used by `corpus_store.py`.
-- **FAISS index** (`*.index`) of PubMedBERT embeddings — used by the dense pipelines.
-- **PISA index** — used by the BM25 pipelines.
-- A **cross-encoder model** — set `CROSS_ENCODER_MODEL` at the top of each pipeline
-  before running. (e.g.: BAAI/bge-reranker-v2-m3, Alibaba-NLP/gte-reranker-modernbert-base)
+**Prebuilt indexes (FAISS + PISA)** used in this work are available on Hugging Face:
+> 🤗 [dantunes6/lean-rag-indexes](https://huggingface.co/datasets/dantunes6/lean-rag-indexes)
 
+Download them with:
+```python
+from huggingface_hub import snapshot_download
+
+snapshot_download(
+    repo_id="dantunes6/lean-rag-indexes",
+    repo_type="dataset",
+    local_dir="./lean-rag-indexes"
+)
+```
 ---
 
 ## Usage
@@ -116,6 +123,8 @@ For the phaseb.py script the paths should be added in the file.
 ---
 
 ## Citation
-[TO BE ADDED]
+
+Developed at LASIGE, University of Lisbon by Diogo Antunes.
+Supervised by Francisco M. Couto.
 
 
