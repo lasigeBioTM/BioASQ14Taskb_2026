@@ -76,8 +76,6 @@ pip install -r requirements.txt
 
 ### Prerequisites (not included in this repo)
 
-These are large and must be obtained separately:
-
 **Prebuilt indexes (FAISS + PISA)** used in this work are available on Hugging Face:
 > 🤗 [dantunes6/lean-rag-indexes](https://huggingface.co/datasets/dantunes6/lean-rag-indexes)
 
