@@ -7,7 +7,7 @@ generation).
 > Developed by Diogo Antunes under the supervision of Francisco M. Couto
 > (LASIGE, Faculty of Sciences, University of Lisbon).
 >
-> Working notes: [TO BE ADDED]
+> For the Working Notes click [here](https://clef-staging.pages.dev/paper6.pdf)
 
 ---
 
