@@ -124,7 +124,30 @@ For the phaseb.py script the paths should be added in the file.
 
 ## Citation
 
-Developed at LASIGE, University of Lisbon by Diogo Antunes.
-Supervised by Francisco M. Couto.
+If you use this code, please cite the working notes:
+
+> Antunes, D. M. C., Lopes, P. R. C., & Couto, F. M. (2026).
+> Retrieval-Bound Generation: Lean RAG Pipelines for Biomedical QA.
+> In *Working Notes of the Conference and Labs of the Evaluation Forum (CLEF 2026)*, Jena, Germany, pp. 123–145. CEUR-WS.org.
+
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@inproceedings{antunes2026retrievalbound,
+  author    = {Antunes, Diogo M. C. and Lopes, Paulo R. C. and Couto, Francisco M.},
+  title     = {Retrieval-Bound Generation: Lean {RAG} Pipelines for Biomedical {QA}},
+  booktitle = {Working Notes of the Conference and Labs of the Evaluation Forum ({CLEF} 2026)},
+  series    = {CEUR Workshop Proceedings},
+  publisher = {CEUR-WS.org},
+  address   = {Jena, Germany},
+  pages     = {123--145},
+  year      = {2026}
+}
+```
+</details>
+
+Developed at LASIGE, Faculty of Sciences, University of Lisbon, by Diogo Antunes,
+supervised by Francisco M. Couto.
 
 
